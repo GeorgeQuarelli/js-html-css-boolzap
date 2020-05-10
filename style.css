@@ -65,6 +65,8 @@
 .header_right {
     height: 65px;
     background-color: #eaeaea;
+    display: flex;
+    flex-direction: row;
 }
 
 .wallpaper {
@@ -101,5 +103,31 @@
 }
 
 .setting {
+    margin-right: 30px;
+}
+
+.avatar_chat {
+    width: 220px;
+}
+
+.avatar_chat img {
+    margin-left: 5px;
+}
+
+.icon_header_right {
+    color: #b1b1b1;
+    width: 830px;
+    margin-top: 26px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.allega {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.setting_right {
     margin-right: 30px;
 }
