@@ -118,6 +118,41 @@
     flex-direction: row;
 }
 
+.container_chat {
+    width: 650px;
+    margin: auto;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.text_1 {
+    width: 650px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text_1 p {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+.text_2 {
+    width: 650px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.text_2 p{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+
 .wallpaper {
     height: 670px;
     background-image: url(img/wallpaper.jpg);
