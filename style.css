@@ -38,3 +38,40 @@
     height: auto;
     float: left;
 }
+
+.header_left {
+    height: 65px;
+    background-color: #eaeaea;
+}
+
+.noti {
+    height: 70px;
+    background-color: #8edafc;
+}
+
+.ricerca_contact {
+    height: 50px;
+    background-color: #eaeaea;
+}
+
+.chat {
+    height: 615px;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.header_right {
+    height: 65px;
+    background-color: #eaeaea;
+}
+
+.wallpaper {
+    height: 670px;
+    background-image: url(img/wallpaper.jpg);
+    overflow-y: scroll;
+}
+
+.chat_box {
+    height: 65px;
+    background-color: #f3eeea;
+}
