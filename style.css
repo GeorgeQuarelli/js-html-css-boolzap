@@ -107,7 +107,16 @@
 }
 
 .avatar_chat {
-    width: 220px;
+    width: 86px;
+}
+
+.chat_name {
+    width: 400px;
+    margin-top: 16px;
+}
+
+.chat_name p {
+    color: #767982;
 }
 
 .avatar_chat img {
