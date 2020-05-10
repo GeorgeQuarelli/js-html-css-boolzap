@@ -53,7 +53,31 @@
 
 .ricerca_contact {
     height: 50px;
-    background-color: #eaeaea;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+}
+
+.ricerca_icon {
+    color: #b1b1b1;
+    margin-top: 7px;
+    margin-left: 5px;
+    padding-top: 10px;
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+}
+
+.ricerca_form input {
+    margin-top: 7px;
+    height: 35px;
+    width: 340px;
+    float: right;
+    justify-content: center;
+
 }
 
 .chat {
@@ -78,6 +102,32 @@
 .chat_box {
     height: 65px;
     background-color: #f3eeea;
+    display: flex;
+    flex-direction: row;
+}
+
+.smile i {
+    width: 50px;
+    color: grey;
+    margin-top: 18px;
+    margin-left: 30px;
+}
+
+.form_chat input {
+    margin-top: 18px;
+    height: 35px;
+    width: 650px;
+    float: right;
+    justify-content: center;
+
+}
+
+.vocal {
+    color: grey;
+    margin-top: 18px;
+    width: 65px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .avatar_p {
@@ -139,4 +189,23 @@
 
 .setting_right {
     margin-right: 30px;
+}
+
+.noti {
+    display: flex;
+    flex-direction: row;
+}
+
+.noti a {
+    color: #767982;
+}
+
+.noti_icon {
+    margin-left: 15px;
+    padding-top: 3px;
+}
+
+.noti_text {
+    margin-top: 16px;
+    margin-left: 5px;
 }
