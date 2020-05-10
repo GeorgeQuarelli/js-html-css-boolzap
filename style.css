@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top_wall {
+    background-color: #358675;
+    height: 100px;
+    position: relative;
+}
+
+.bot_wall {
+    background-color: #d2d4c9;
+    height: 835px;
+}
+
+.container {
+    width: 1280px;
+    height: 800px;
+    background-color: white;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 16%;
+    display: flex;
+
+}
+
+.comp_left {
+    width: 450px;
+    height: auto;
+    float: left;
+    border-right: 1px solid lightgrey;
+}
+
+.comp_right {
+    width: 830px;
+    height: auto;
+    float: left;
+}
