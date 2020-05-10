@@ -42,6 +42,8 @@
 .header_left {
     height: 65px;
     background-color: #eaeaea;
+    display: flex;
+    flex-direction: row;
 }
 
 .noti {
@@ -67,11 +69,37 @@
 
 .wallpaper {
     height: 670px;
-    background-image: url(img/wallpaper.png);
+    background-image: url(img/wallpaper.jpg);
     overflow-y: scroll;
 }
 
 .chat_box {
     height: 65px;
     background-color: #f3eeea;
+}
+
+.avatar_p {
+    width: 220px;
+}
+
+.avatar_p img {
+    margin-left: 5px;
+}
+
+.icon_header {
+    color: #b1b1b1;
+    width: 230px;
+    margin-top: 26px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.new_chat {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.setting {
+    margin-right: 30px;
 }
