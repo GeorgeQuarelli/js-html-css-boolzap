@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
 .top_wall {
     background-color: #358675;
     height: 100px;
