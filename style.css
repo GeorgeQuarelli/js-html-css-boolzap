@@ -60,6 +60,12 @@ body {
     background-color: #fafafa;
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
+    border: 1px solid #f6f6f6;
+    border-left: transparent;
+    outline: none;
+    font-size: 10px;
+    font-weight: 700;
 }
 
 .ricerca_icon {
@@ -81,7 +87,13 @@ body {
     width: 340px;
     float: right;
     justify-content: center;
-
+    flex-grow: 1;
+    border: 1px solid #f6f6f6;
+    border-left: transparent;
+    outline: none;
+    padding: 12px 10px;
+    font-size: 10px;
+    font-weight: 700;
 }
 
 .chat {
@@ -115,6 +127,13 @@ body {
     opacity: 0.5;
 }
 
+.orario_contatto {
+  font-size: 12px;
+  margin-top: 15px;
+  margin-left: 180px;
+  color: #72787b;
+}
+
 .header_right {
     height: 65px;
     background-color: #eaeaea;
@@ -125,36 +144,48 @@ body {
 .container_chat {
     width: 650px;
     margin: auto;
-    height: 670px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+    align-items: flex-start;
 }
 
-.text_1 {
-    width: 650px;
-    margin-bottom: 30px;
+.new_messaggio{
+    /* content: ""; */
+    /* display: table; */
+    clear: both;
+}
+
+
+.messaggio-inviato{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    max-width: 155px;
+    min-height: 50px;
+    background-color: #dcf8c6;
+    align-self: flex-end;
+    border-radius: 8px;
+    padding: 15px 75px 5px 10px;
+    position: relative;
+    margin-bottom: 15px;
 }
 
-.text_1 p {
-    padding: 15px;
-    border-radius: 10px;
-    background-color: lightgrey;
+.messaggio-ricevuto{
+    max-width: 155px;
+    min-height: 50px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px 75px 5px 10px;
+    position: relative;
+    margin-bottom: 15px;
+    list-style-type: none;
 }
 
-.text_2 {
-    width: 650px;
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 30px;
-}
-
-.text_2 p{
-    padding: 15px;
-    border-radius: 10px;
-    background-color: lightgreen;
+.orario_chat {
+  font-size: 12px;
+  margin-top: 15px;
+  color: #72787b;
 }
 
 .wallpaper {
@@ -183,15 +214,22 @@ body {
     width: 650px;
     float: right;
     justify-content: center;
-
+    flex-grow: 1;
+    border: 1px solid #f6f6f6;
+    border-left: transparent;
+    outline: none;
+    padding: 12px 10px;
+    font-size: 10px;
+    font-weight: 700;
 }
 
-.vocal {
+#vocal {
     color: grey;
     margin-top: 18px;
     width: 65px;
     display: flex;
     justify-content: flex-end;
+    cursor: pointer;
 }
 
 .avatar_p {
@@ -272,4 +310,8 @@ body {
 .noti_text {
     margin-top: 16px;
     margin-left: 5px;
+}
+
+.template{
+    display: none;
 }
