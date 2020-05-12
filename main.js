@@ -38,7 +38,7 @@ $('.input-container').keyup(function(event){
                 // se non corrisponde il contatto con il nome inserito viene nascosto
                 $(this).hide();
             }
-        })
+            })
         }
         else {
             $('.chat_mex').show();
