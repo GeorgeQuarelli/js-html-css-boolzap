@@ -152,8 +152,6 @@ body {
 }
 
 .new_messaggio{
-    /* content: ""; */
-    /* display: table; */
     clear: both;
 }
 
@@ -169,6 +167,7 @@ body {
     padding: 15px 75px 5px 10px;
     position: relative;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .messaggio-ricevuto{
@@ -180,6 +179,7 @@ body {
     position: relative;
     margin-bottom: 15px;
     list-style-type: none;
+    cursor: pointer;
 }
 
 .orario_chat {
@@ -314,4 +314,19 @@ body {
 
 .template{
     display: none;
+    list-style-type: none;
+}
+
+.message-pannello{
+	display: none;
+	position: absolute;
+	width: 170px;
+    padding: 10px;
+	background: white;
+    border-radius: 8px;
+    right: 40px;
+}
+
+.message-pannello.active{
+    display: block;
 }

@@ -44,3 +44,10 @@ $('.input-container').keyup(function(event){
             $('.chat_mex').show();
         }
 });
+
+// se clicco sull messaggio che ho inviato mi apre il suo dropdown
+$('.container_chat').on('click','.messaggio-inviato',function() {
+    //alert('click');
+    // do la classe active al dropdown ,in modo da vederlo
+    $('.message-pannello').find('.message-pannello').toggleClass('.active');
+});
